@@ -6,11 +6,3 @@ export const BOOKS_QUERY = gql`{
       id
     }
 }`
-
-export const BOOK_QUERY = gql`{
-    book($id:){
-      name
-      id
-    }
-}`
-
